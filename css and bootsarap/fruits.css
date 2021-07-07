@@ -1,0 +1,233 @@
+.body {
+  background: #b91010;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+.bodypink {
+  background: #d10e90;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+.bodymango {
+  background: #f2f700;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+.bodyPine {
+  background: #ffcc00;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+.bodywater {
+  background: #166e00;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow-x: hidden;
+}
+
+.logo {
+  font-family: monospace;
+  font-size: 2.3em;
+  font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Menu a {
+  margin: 10px;
+  text-decoration: none;
+  padding: 7px;
+  color: black;
+  font-weight: 600;
+}
+
+.Menu a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: Black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.Menu a:nth-child(1) {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: Black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+  .Menu {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 30% 30%;
+        grid-template-columns: 30% 30% 30%;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.body-items {
+  position: relative;
+  min-height: 70%;
+  width: 100%;
+}
+
+.body-items .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+  min-height: 100%;
+}
+
+.body-items .content .item-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-items .content .item-pic .img {
+  width: 100%;
+}
+
+.body-items .content .item-pic .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.body-items .content .item-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body-items .content .item-details h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.body-items .content .item-details h6 {
+  font-family: serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.body-items .content .item-details h6 a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.body-items .content .item-details h6 a:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  opacity: .8;
+}
+
+@media (max-width: 768px) {
+  .body-items .content {
+    position: relative;
+    margin: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.data {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.data .img-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.data .img-align .img {
+  position: relative;
+  margin-right: 1em;
+  width: 10%;
+}
+
+.data .img-align .img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.data .img-align .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 630px) {
+  .data .img-align .img {
+    width: 14%;
+  }
+}
+/*# sourceMappingURL=fruits.css.map */
